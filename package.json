@@ -1,0 +1,19 @@
+{
+  "name": "app-template",
+  "version": "1.0.0",
+  "description": "App template",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmtrshat/app-template.git"
+  },
+  "author": "Dmitry Shatokhin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dmtrshat/app-template/issues"
+  },
+  "homepage": "https://github.com/dmtrshat/app-template#readme"
+}
