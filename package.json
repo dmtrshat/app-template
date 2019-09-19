@@ -36,5 +36,22 @@
     "stylelint-config-prettier": "^5.2.0",
     "stylelint-config-recommended": "^2.2.0",
     "stylelint-order": "^3.1.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{css}": [
+      "stylelint --fix",
+      "prettier --write",
+      "git add"
+    ],
+    "src/**/*.{js}": [
+      "eslint --fix",
+      "prettier --write",
+      "git add"
+    ]
   }
 }
