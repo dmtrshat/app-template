@@ -1,5 +1,6 @@
 module.exports = {
   plugins: [
+    require("postcss-import"),
     require("rucksack-css")({
       responsiveType: true,
       shorthandPosition: false,
