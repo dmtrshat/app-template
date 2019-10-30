@@ -12,7 +12,7 @@ module.exports = {
       hexRGBA: false,
       easings: false
     }),
-    require("postcss-animation"),
+    require("postcss-move-it"),
     require("postcss-define-function"),
     require("postcss-custom-media"),
     require("postcss-custom-properties"),
